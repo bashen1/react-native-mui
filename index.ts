@@ -1,5 +1,5 @@
 export {default as Avatar} from './Avatar/Avatar';
-export {default as BottomSpace} from './BottomSpace/BottomSpace'
+export {default as BottomSpace} from './BottomSpace/BottomSpace';
 export {default as FlatList} from './FlatList/FlatList';
 export {default as Flex} from './Flex/Flex';
 export {default as IconFont} from './IconFont/IconFont';
