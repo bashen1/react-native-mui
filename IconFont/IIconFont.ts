@@ -11,7 +11,7 @@ export interface IIconFont {
   /**
    * 图标颜色
    */
-  color: string;
+  color?: string;
   /**
    * 图标外部容器样式
    */

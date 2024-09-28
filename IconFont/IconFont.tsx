@@ -7,9 +7,9 @@ import {Flex, Text} from '../index';
 import {IIconFont} from './IIconFont';
 
 const IconFont = ({
-  value,
-  size,
-  color,
+  value = '\ue703',
+  size = 16,
+  color = '#000000',
   containerStyle,
 }: IIconFont): JSX.Element => {
   return useMemo(
@@ -22,12 +22,6 @@ const IconFont = ({
     ),
     [color, containerStyle, size, value],
   );
-};
-
-IconFont.defaultProps = {
-  value: '\ue703',
-  size: 16,
-  color: '#000000',
 };
 
 const styles = StyleSheet.create({
