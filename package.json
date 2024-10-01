@@ -1,7 +1,7 @@
 
 {
     "name": "react-native-mui-lib",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "react-native library for ui",
     "main": "index.ts",
     "scripts": {
